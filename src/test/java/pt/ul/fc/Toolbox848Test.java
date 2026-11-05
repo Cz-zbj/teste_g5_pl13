@@ -23,4 +23,17 @@ class Toolbox848Test {
         assertTrue(Toolbox848.divisibleByTwo(4));
         assertFalse(Toolbox848.divisibleByTwo(7));
     }
+    
+    // fazer avaliacao 
+    @Test
+    void toUpper() {
+
+        assertEquals("C", Toolbox848.toUpper("c"));
+    }
+
+    @Test
+    void biggest() {
+
+        assertEquals(5, Math.min(5 , 4));
+    }
 }
