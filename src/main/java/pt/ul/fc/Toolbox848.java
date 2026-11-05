@@ -14,14 +14,14 @@ public class Toolbox848 {
      * Returns the larger of a and b.
      */
     public static int biggest(int a, int b) {
-        return Math.min(a, b);
+        return Math.max(a, b);
     }
 
     /**
      * Returns s converted to upper case.
      */
     public static String toUpper(String s) {
-        return s.toLowerCase();
+        return s.toUpperCase();
     }
 
     /**
